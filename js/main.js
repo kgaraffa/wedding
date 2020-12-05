@@ -52,11 +52,11 @@ $(document).ready(function() {
     		firstTransition: 'fade2',
     		firstTransitionDuration: 2000,
     		transition: 'fade2',
-    		transitionDuration: 4000,
+    		transitionDuration: 5000,
     		slides: [
-    			{ src: "./img/one.jpg" },
-    			{ src: "./img/two.png" },
-    			{ src: "./img/three.jpg" }
+    			{ src: "./img/one.png" },
+    			{ src: "./img/one.png" },
+    			{ src: "./img/one.png" }
     		]
     	});
     }
@@ -104,7 +104,7 @@ $(document).ready(function() {
 		
 	if( $('#countdown').length ) {
 		// Set the date we're counting down to
-		var countDownDate = Date.parse('18 Sept 2021 14:30:00');
+		var countDownDate = Date.parse('14 Nov 2021 16:00:00');
 		
 		// Update the count down every 1 second
 		var x = setInterval(function() {
